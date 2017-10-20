@@ -53,12 +53,12 @@ void  Reverse()
 	Node *prev=NULL;
 	while (temp != NULL)
 	{
-		head = temp->next;
+			head = temp->next;
 			last = temp->next;
 			temp->next = prev;
 			prev = temp;
-			temp = last;
-		head=prev;
+			temp = temp->next;
+			head=prev;
 	}
 
 }
