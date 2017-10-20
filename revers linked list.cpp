@@ -67,7 +67,7 @@ void  Reverse()
 			last = temp->next;
 			temp->next = prev;
 			prev = temp;
-			temp = temp->next;
+			temp =last;
 			head=prev;
 	}
 
