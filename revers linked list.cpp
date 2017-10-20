@@ -45,16 +45,7 @@ void add( int data)
 		temp->next = x;
 	}
 }
-void InsertAt(int data, int pos)
-{
-	Node*temp = head;
-	Node*x = new Node();
-	x->data = data;
-	for (int i = 0; i < pos-2; i++)
-	{
 
-	}
-}
 void  Reverse()
 {
 	Node *temp = head;
