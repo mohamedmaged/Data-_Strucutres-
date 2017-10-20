@@ -14,6 +14,7 @@ void print()
 		cout << temp->data << "  ";
 		temp = temp->next;
 	}
+	if(head!=NULL)
 	cout << temp->data << endl;
 }
 void insert(int  data) {
@@ -40,7 +41,7 @@ void add( int data)
 		Node* temp = new Node();
 		temp = head;
 		while (temp->next != NULL)
-			temp = temp->next;
+		temp = temp->next;
 
 		temp->next = x;
 	}
